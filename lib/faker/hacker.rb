@@ -28,6 +28,10 @@ module Faker
         fetch('hacker.ingverb')
       end
 
+      def language
+        fetch('hacker.language')
+      end
+
       def phrases
          [ "If we #{verb} the #{noun}, we can get to the #{abbreviation} #{noun} through the #{adjective} #{abbreviation} #{noun}!",
            "We need to #{verb} the #{adjective} #{abbreviation} #{noun}!",

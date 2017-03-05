@@ -20,4 +20,7 @@ Faker::Hacker.verb  #=> "bypass"
 
 # Verbs that end in -ing
 Faker::Hacker.ingverb #=> "synthesizing"
+
+# Programming lanugages
+Faker::Hacker.language #=> "Haskell"
 ```

@@ -33,4 +33,7 @@ class TestFakerHacker < Test::Unit::TestCase
     assert @hacker.ingverb.match(/\w+/)
   end
 
+  def test_language
+    assert @hacker.language.match(/\w+/)
+  end
 end
